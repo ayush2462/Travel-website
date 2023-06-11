@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Travel Agency</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Flights</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Hotels</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Tours</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Activities</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <section class="features">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4 col-sm-6">
+              <div class="feature-item">
+                <i class="fa fa-plane"></i>
+                <h3>Flights</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+              <div class="feature-item">
+                <i class="fa fa-bed"></i>
+                <h3>Hotels</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+              <div class="feature-item">
+                <i class="fa fa-map"></i>
+                <h3>Tours</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+              <div class="feature-item">
+                <i class="fa fa-camera"></i>
+                <h3>Activities</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+              <div class="feature-item">
+                <i class="fa fa-envelope"></i>
+                <h3>Contact</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+              <div class="feature-item">
+                <i class="fa fa-comments"></i>
+                <h3>Support</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="customer-reviews">
+        <h2>Customer Reviews</h2>
+        <div class="review">
+          <img src="images/customer1.jpg" alt="Customer 1">
+          <div class="review-text">
+            <h3>John Doe</h3>
+            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi at sodales nunc. Pellentesque rhoncus vel nisi id malesuada. Etiam venenatis nulla vel velit varius suscipit."</p>
+          </div>
+        </div>
+        <div class="review">
+          <img src="images/customer2.jpg" alt="Customer 2">
+          <div class="review-text">
+            <h3>Jane Smith</h3>
+            <p>"Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce vel urna eget nibh imperdiet egestas. Sed auctor diam felis, nec eleifend nisi porttitor quis."</p>
+          </div>
+        </div>
+      </section>
+      
+      <section class="payment-options">
+        <h2>Secure Payment Options</h2>
+        <ul>
+          <li>
+            <img src="images/visa.png" alt="Visa">
+            <span>Pay with Visa</span>
+          </li>
+          <li>
+            <img src="images/mastercard.png" alt="Mastercard">
+            <span>Pay with Mastercard</span>
+          </li>
+          <li>
+            <img src="images/paypal.png" alt="PayPal">
+            <span>Pay with PayPal</span>
+          </li>
+        </ul>
+      </section>
+      <footer>
+        <div class="social-media">
+            <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i>Facbook</a>
+            <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i>Twitter</a>
+            <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i>Instagram</a>
+            <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin-in"></i>linkedin</a>
+          </div>
+          
+      </footer>
+      <script>
+        var navbarToggler = document.querySelector(".navbar-toggler");
+        var navbarCollapse = document.querySelector(".navbar-collapse");
+      
+        navbarToggler.addEventListener("click", function () {
+          navbarCollapse.classList.toggle("show");
+        });
+      </script>
+      
+</body>
+</html>
